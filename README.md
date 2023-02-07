@@ -1,0 +1,16 @@
+- Consider packages to share code. You'll need this when writing libs
+- Hello(). Capital H signifies an exported function that can be shared across packages
+- := shorthand assignment. Return types is determined by operation on the right
+- Sprintf formats text, also reads a value is %v
+- Type conversion as in int to string can be achieved with strconv fn
+- Random No. generation can be achieved with rand.Seed(time.Now().UnixnNano()); it's deprecated
+- Slices are like lists in Scala
+- Logging is chap chap
+- The idea of preserving backwards compatibility by implementing new constructs that reuse code
+- Revisit tests (_test tells Go that this is a test)
+- go build xyz.go
+- ./xyz
+- go list "{{.Target}}"
+- export PATH=$PATH:/path/bin from above
+- go install xyz.go
+- xyz
